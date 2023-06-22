@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
     margin: 0;
     padding: 0;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    font-family: 'Roboto';
 }
+
+/* navbar */
 
 .nav {
     display: flex;
@@ -21,7 +29,7 @@ ul {
 
 .logo {
     font-size: 24px;
-    color: white;
+    color: #F9FAF8;
     font-weight: bold;
 }
 
@@ -31,36 +39,42 @@ ul {
     background-color: #1F2937;
     display: flex;
     justify-content: space-evenly;
-    padding-top: 68px;
+    align-items: center;
     padding-bottom: 68px;
 }
 
 .section1 img {
-    height: 200px;
+    height: 250px;
+    /* width: 600px; */
+}
+
+.section1 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 300px;
+    text-align: start;
 }
 
 .section1 .main-text {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: bold;
-    max-width: 300px;
-    margin: auto;
+    margin-bottom: 0;
 }
 
 .section1 .secondary-text {
     color: #e5e7eb;
     font-size: 18px;
-    max-width: 300px;
-    display: flex;
-    flex-wrap: wrap;
+    margin-top: 0;
 }
 
-/* fix button location */
 button {
     background-color: #3882F6;
     color: white;
     border: none;
     padding: 8px 32px;
+    border-radius: 5px;
 }
 
 /* section 2 */
@@ -104,7 +118,7 @@ button {
 }
 
 .section3 .container {
-    width: 580px;
+    width: 680px;
 }
 
 .section3 .quote {
@@ -126,8 +140,8 @@ button {
     justify-content: space-around;
     align-items: center;
     background-color: #3882F6;
-    margin: 100px;
-    padding: 100px;
+    margin: 100px 200px;
+    padding: 75px;
     border-radius: 10px;
 }
 
@@ -141,7 +155,7 @@ button {
 }
 
 .section4 button {
-    border: 5px solid #F9FAF8;
+    border: 2px solid #F9FAF8;
     border-radius: 10px;
     font-size: 16px;
     padding: 8px 48px;
@@ -153,6 +167,8 @@ button {
     align-items: flex-start;
 }
 
+/* footer */
+
 .footer {
     background-color: #1F2937;
     display: flex;
@@ -161,39 +177,3 @@ button {
     color: #E5E7EB;
     padding: 50px;
 }
-
-/* body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.nav,
-.footer {
-    background-color: #1F2937;
-    display: flex;
-    align-items: center;
-}
-
-.footer {
-    background-color: #1F2937;
-    display: flex;
-    align-items: center;
-    color: #E5E7EB;
-}
-
-.logo {
-    font-size: 24px;
-    color: white;
-}
-
-.section1 {
-    background-color: #1F2937;
-    color: #E5E7EB;
-}
-
-.main-text {
-    color: #F9FAF8;
-    font-size: 48px;
-    font-weight: bolder;
-} */
