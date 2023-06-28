@@ -2,6 +2,8 @@
 
 This is a landing page project completed as part of The Odin Project's Foundations curriculum. The goal of the project was to create a responsive landing page using CSS flexbox to practice flexbox concepts.
 
+<img width="800" alt="Screenshot 2023-06-28 at 1 32 15 AM" src="https://github.com/vndlgd/landing-page/assets/46804151/f082aee0-5c97-4557-979a-7f528ee1e249">
+
 ## Description
 
 The concept and content for the landing page were generated using ChatGPT. It's a fictitious company called MeloSense, which focuses on immersive music experiences and an AI-powered subscription service.
