@@ -32,8 +32,3 @@ git clone https://github.com/your-username/melosense-landing-page.git
 - HTML5
 - CSS3
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-
